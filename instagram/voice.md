@@ -16,8 +16,11 @@ diría Jeffrey en cámara.
   usarla en su negocio u ofrecerla como servicio. Gente con sed de avanzar:
   compra mentorías, cursos y talleres, sigue a referentes del medio y le
   gusta estar a la vanguardia.
-- **What I sell:** Mi curso de IA aplicada a negocios, capacitaciones para
-  empresas y el evento Titanes.
+- **What I sell:** La membresía anual "Titanes de la IA" en Skool (USD 297 al
+  año; 7 módulos, 84 lecciones, 2 clases en vivo al mes, talleres; página:
+  oferta.titanesia.com), capacitaciones para empresas y el Evento Titanes.
+  Método propio: la secuencia Titanes (contexto, contenido, atención,
+  captación, sistema).
 
 ## What I sound like
 
@@ -85,6 +88,8 @@ diría Jeffrey en cámara.
 - Fundador del evento Titanes.
 - En la última edición de Titanes se capacitaron 1.231 empresarios en
   inteligencia artificial.
+- Más de 5.000 personas capacitadas en distintos países.
+- Tengo agentes de IA atendiendo mis WhatsApp las 24 horas.
 - En cada edición de Titanes he reunido a grandes mentes expertas en cada área.
 - Le cobré casi 5.000 dólares a una empresa por una página web y un agente de
   WhatsApp hechos con IA, sin ser programador.

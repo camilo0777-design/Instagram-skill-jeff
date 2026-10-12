@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&family=Unbounded:wght@600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0B1020; --panel: #111831; --line: #2A3352;
+    --tx: #F4F6FB; --soft: #C9D1E6; --mute: #9AA4BF;
+    --gold: #FFC83D; --gold2: #FFB000;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #000; font-family: 'Figtree', sans-serif; }
+  section {
+    width: 1080px; height: 1350px; position: relative; overflow: hidden;
+    background: radial-gradient(120% 80% at 85% 0%, #1a2350 0%, var(--bg) 55%);
+    color: var(--tx); padding: 150px 130px 160px;
+    display: flex; flex-direction: column; justify-content: center;
+  }
+  .meta {
+    position: absolute; left: 130px; right: 130px; bottom: 70px;
+    display: flex; justify-content: space-between; align-items: center;
+    font-size: 30px; color: var(--mute); font-weight: 600;
+  }
+  .top {
+    position: absolute; left: 130px; top: 80px; font-size: 28px; letter-spacing: .12em;
+    color: var(--gold); font-weight: 700; text-transform: uppercase;
+  }
+  h1, h2 { font-family: 'Unbounded', sans-serif; line-height: 1.08; letter-spacing: -.01em; }
+  h1 { font-size: 104px; font-weight: 800; }
+  h2 { font-size: 72px; font-weight: 700; margin-bottom: 44px; }
+  .gold { color: var(--gold); }
+  p { font-size: 44px; line-height: 1.35; color: var(--soft); font-weight: 500; }
+  .sub { margin-top: 56px; font-size: 46px; color: var(--soft); }
+  .num {
+    font-family: 'Unbounded', sans-serif; font-weight: 800; font-size: 220px; line-height: 1;
+    color: transparent; -webkit-text-stroke: 4px var(--gold); margin-bottom: 30px;
+  }
+  .step { font-size: 34px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); font-weight: 800; margin-bottom: 18px; }
+  ol { list-style: none; }
+  ol li {
+    display: flex; gap: 34px; align-items: baseline; padding: 26px 0;
+    border-bottom: 2px solid var(--line); font-size: 46px; font-weight: 700;
+  }
+  ol li span.n { font-family: 'Unbounded', sans-serif; color: var(--gold); font-size: 44px; min-width: 50px; }
+  ol li small { display: block; font-size: 32px; color: var(--mute); font-weight: 500; margin-top: 6px; }
+  .pill {
+    display: inline-block; margin-top: 60px; padding: 26px 44px; border-radius: 999px;
+    background: var(--gold); color: #141414; font-weight: 800; font-size: 44px;
+  }
+  .bar { width: 120px; height: 10px; background: var(--gold); border-radius: 10px; margin-bottom: 50px; }
+</style>
+</head>
+<body>
+
+<section id="s1">
+  <div class="top">La secuencia Titanes</div>
+  <div class="bar"></div>
+  <h1>Tienes IA.<br><span class="gold">Tu negocio sigue igual.</span></h1>
+  <p class="sub">Los 5 pasos, en orden, para que por fin funcione.</p>
+  <div class="meta"><span>@jeffreycamilo7</span><span>Desliza →</span></div>
+</section>
+
+<section id="s2">
+  <h2>El problema no son las herramientas.<br><span class="gold">Te falta el orden.</span></h2>
+  <p>Pagar ChatGPT y ver mil videos no cambia nada si empiezas por el paso 4. Cada paso se apoya en el anterior.</p>
+  <div class="meta"><span>@jeffreycamilo7</span><span>2/9</span></div>
+</section>
+
+<section id="s3">
+  <div class="num">1</div>
+  <div class="step">Contexto</div>
+  <h2>Que la IA conozca tu negocio</h2>
+  <p>Antes de pedirle nada: qué vendes, a quién, a qué precio y cómo hablas. Sin esto, todo sale genérico.</p>
+  <div class="meta"><span>@jeffreycamilo7</span><span>3/9</span></div>
+</section>
+
+<section id="s4">
+  <div class="num">2</div>
+  <div class="step">Contenido</div>
+  <h2>Publica piezas que suenan a ti</h2>
+  <p>Con ese contexto, la IA te ayuda con guiones y posts en tu voz. Cada pieza lleva a una venta.</p>
+  <div class="meta"><span>@jeffreycamilo7</span><span>4/9</span></div>
+</section>
+
+<section id="s5">
+  <div class="num">3</div>
+  <div class="step">Atención</div>
+  <h2>Un agente que responde por ti</h2>
+  <p>En WhatsApp: responde, precalifica y hace seguimiento. Lo que no debe resolver, te lo pasa a ti.</p>
+  <div class="meta"><span>@jeffreycamilo7</span><span>5/9</span></div>
+</section>
+
+<section id="s6">
+  <div class="num">4</div>
+  <div class="step">Captación</div>
+  <h2>Página y anuncios con números</h2>
+  <p>Una página clara en el celular y anuncios que mides: conversaciones, ventas y cuánto te cuesta cada cliente.</p>
+  <div class="meta"><span>@jeffreycamilo7</span><span>6/9</span></div>
+</section>
+
+<section id="s7">
+  <div class="num">5</div>
+  <div class="step">Sistema</div>
+  <h2>Todo conectado</h2>
+  <p>El contenido atrae, el agente atiende y la página convierte. O lo conviertes en un servicio para otros negocios.</p>
+  <div class="meta"><span>@jeffreycamilo7</span><span>7/9</span></div>
+</section>
+
+<section id="s8">
+  <div class="top">Guárdalo</div>
+  <h2 style="margin-bottom:30px">La secuencia <span class="gold">Titanes</span></h2>
+  <ol>
+    <li><span class="n">1</span><div>Contexto<small>La IA conoce tu negocio y tu voz</small></div></li>
+    <li><span class="n">2</span><div>Contenido<small>Piezas que suenan a ti y venden</small></div></li>
+    <li><span class="n">3</span><div>Atención<small>Un agente que responde y te pasa lo difícil</small></div></li>
+    <li><span class="n">4</span><div>Captación<small>Página y anuncios medidos</small></div></li>
+    <li><span class="n">5</span><div>Sistema<small>Todo conectado, o un servicio que vendes</small></div></li>
+  </ol>
+  <div class="meta"><span>@jeffreycamilo7</span><span>8/9</span></div>
+</section>
+
+<section id="s9">
+  <h1 style="font-size:96px">¿En qué paso<br><span class="gold">estás tú?</span></h1>
+  <p class="sub">Dímelo en los comentarios y te digo cuál es tu siguiente movimiento.</p>
+  <div><span class="pill">Comenta el número: 1, 2, 3, 4 o 5</span></div>
+  <div class="meta"><span>@jeffreycamilo7</span><span>9/9</span></div>
+</section>
+
+</body>
+</html>
