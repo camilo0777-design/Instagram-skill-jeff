@@ -34,3 +34,13 @@ llénalo con tu forma de hablar. Todas las skills lo leen.
 Nota: las skills y sus listas de detección están pensadas para inglés. Puedes
 pedir contenido en español, pero los puntajes del humanizador y de los hooks
 pueden ser menos precisos.
+
+## Tu voz y archivos de trabajo
+
+`instagram/voice.md` tiene la voz de @jeffreycamilo7. En sesiones de Claude
+Code en la nube, un hook de inicio (`.claude/hooks/session-start.sh`) enlaza
+`~/.claude/instagram` a esa carpeta, así las skills leen `voice.md` y lo que
+escriben (`plan.md`, `log.md`, `swipe.md`) queda dentro del repo. Haz commit
+de esos archivos para conservarlos entre sesiones.
+
+En tu computadora, copia `instagram/voice.md` a `~/.claude/instagram/voice.md`.
